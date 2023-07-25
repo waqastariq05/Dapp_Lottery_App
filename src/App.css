@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+    --blue: rgb(255, 10, 10);
+    --dark-blue: rgb(161, 5, 5);
+    --black: #242d49;
+}
+
+.pad-56 {
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+}
+
+.App {
+    font-family: "open sans";
+    font-weight: 600;
+    color: var(--black);
+    background-image: url("./images/banner.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus,
+input:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+}
+
+textarea:focus,
+textarea:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    padding: 10px 20px;
+    width: auto;
+    border-radius: 0;
+}
+
+.card .card-body h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card .card-body span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+.card .card-body h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.card .card-body .btn-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .btn {
+    background: var(--blue);
+    border-radius: 34px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    transition: 0.4s ease;
+    background: var(--dark-blue);
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:focus-visible {
+    color: #fff;
+    background: var(--dark-blue);
+    box-shadow: none;
+}
+
+.btn:active {
+    background: var(--dark-blue);
+} */
+
+@media (max-width: 836.98px) {
+    .App {
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pad-56 {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 540.98px) {
+    .App {
+        margin-top: 190px;
+    }
+}
